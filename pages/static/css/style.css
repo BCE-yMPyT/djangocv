@@ -1,0 +1,165 @@
+/*		main setups for landing page		*/
+
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #a4e8d4;
+}
+
+header, footer {
+	width: calc(100% -20px);
+	background-color: #b7f6e4;
+	float: left;
+}
+
+header {
+	width: 100%;
+	min-height: 30px;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	font-color: #333;
+	font-size: 1.2em;
+	color: #333;
+	font-family: Comic Sans MS;
+	float: right;
+}
+
+footer {
+	width: 100%;
+	min-height: 30px;
+	border-top: 2px solid black;
+	padding: 10px;
+	font-size: 1.2em;
+	color: #333;
+	font-family: Comic Sans MS;
+	float: right;
+}
+
+.right {float: right}
+.left {float: left}
+.clear {clear: both}
+
+.all_page_pic {
+	height: 100%;
+	width: calc(100% - 40px);
+}
+
+.all_page_pic img {
+	height: 100%;
+	width: 100%;
+}
+
+.pbd {
+	padding-right: 5%;
+}
+
+#wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#wrapper #block {
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#wrapper #block li {
+	float: left;
+	margin-left: 5%;
+	
+}
+
+#columnCenter {
+    margin-top: 2%;
+	width: 100%;
+	float:  left;
+	border-radius: 5px;
+	border: 2px solid #30554a;
+	box-sizing: border-box;
+	padding: 1%;
+}
+
+/* Left block */
+
+#columnLeft {
+	width: 65%;
+	float:  left;
+	border-radius: 5px;
+	border: 2px solid #30554a;
+	box-sizing: border-box;
+	padding: 1%;
+}
+
+#columnLeft a {
+	color: #479b4b;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+#columnLeft a:hover {
+	color: #84e288;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+#columnLeft hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 2px solid #6bc8ad;
+	padding: 0;
+}
+
+/* Right block */
+
+#columnRight {
+	width: 30%;
+	float:  right;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-color: #b7f6e4;
+	border-radius: 5px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	padding: 1%;
+}
+
+#columnRight a {
+	color: #479b4b;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+#columnRight a:hover {
+	color: #84e288;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+#columnRight hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 2px solid #6bc8ad;
+	padding: 0;
+}
+

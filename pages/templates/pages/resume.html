@@ -1,0 +1,151 @@
+{% extends "pages/wrapper.html" %}
+
+	{% block content %}
+		<div id="wrapper">
+			<div id="block">
+				<div id="columnLeft">
+					<h2>Tretiakov Vladislav</h2>
+					<h3>Kharkiv</h3>
+					<hr/>
+					<h3>TECHNICAL SUMMARY:</h3>
+					<p>Programming Language:	Python.<br/>
+							Programming paradigms:	OOP, functional programming<br/>
+							Frameworks:	Python: Django, Serverless<br/>
+							Database:	SQLite<br/>
+							Other:	HTML5, CSS3, Git, AWS Lambda, Tkinter<br/>
+					</p>
+					<hr/>
+					<h3>PROFESSIONAL EXPERIENCE:</h3>
+					<p>
+					<strong>January 2018 - now:</strong>
+					MEMASIK app team as Python Developer
+					</p>
+					<h4>Also there is work experience (not programming):</h4>
+					<ul type="square">
+					<li>an engineer of the third category in the scientific center (1 year 5 months)</li><br/>
+					<li>a designer-technologist in furniture production (1 year 3 months)</li><br/>
+					<li>a design engineer of the third category in DB (from July 2017 to the present day)</li><br/>
+					</ul>
+					<hr/>
+					<h3>EDUCATION:</h3>
+					<p>
+					National Aerospace University,	Kharkiv, Ukraine - Aircraft design<br/>
+					<i>September 2011 - March 2017</i>
+					</p>
+					<hr/>
+					<h3>Position:</h3>
+					<p>
+					backend/frontend developer
+					</p>
+					<h3>Responsibilities:</h3>
+					<p>
+					applications/software in Python
+					</p>
+					<hr/>
+					<h3>LANGUAGE SKILLS:</h3>
+					<ul>
+					<li>English – Intermediate</li><br/>
+					<li>Ukrainian - Native</li><br/>
+					<li>Russian– Native</li><br/>
+					</ul>
+					<hr/>
+					<h3>PROJECTS:</h3>
+					<a href="https://play.google.com/store/apps/details?id=com.nick.memasik">MEMASIK app </a></br>
+						<ul>
+						<li>Making a website about the application</li><br/>
+						<li>Made a program for images resizing</li><br/>
+						<li>Making logs-parcer</li><br/>
+						</ul>
+					</ul>
+					<a href="https://github.com/BCE-yMPyT/">Other:</a></br>
+						<ul>
+						<li>Making diary app with Tkinter</li><br/>
+						<li>Made the programm for sending email, using AWS Lambda<br/> with POST request in JSON format.</li><br/><br/>
+						<li>Making logs-parcer</li><br/>
+						</ul>
+					</ul>
+					
+				</div>
+
+				<div id="columnRight">
+					<p><strong>Contacts</strong></p>
+					{% load staticfiles %}
+					<p><img src="{% static 'img/mob.png' %}" alt="mobile" title="mobile" /> - +380-95-844-30-71</p>
+					<p><img src="{% static 'img/viber.png' %}" alt="viber" title="viber" /> - Viber(+380-95-844-30-71)</p>
+					<p><img src="{% static 'img/gmail.png' %}" alt="email" title="email" /> - askorytin94@gmail.com</p>
+					<p><img src="{% static 'img/skype.png' %}" alt="skype" title="skype" /> - Skype(kot_will_kill_you)</p>
+					<hr/>
+					<p><strong>Media:</strong></p>
+					<p><img src="{% static 'img/telegramm.png' %}" alt="telegramm" title="telegramm" /> - Telegramm(+380-95-844-30-71)</p>
+					<a href="https://vk.com/sub_vlad_zero"><img src="{% static 'img/vk.png' %}" alt="VK page" title="VK page" /> - VK link</a></br>
+					<a href="https://github.com/BCE-yMPyT"><img src="{% static 'img/github.png' %}" alt="github" title="github" /> - Github link</a></br>
+					<a href="https://djinni.co/q/857bfb81/"><img src="{% static 'img/djinny.png' %}" alt="djinny" title="djinny" /> - Djinny link</a></br>
+					<hr/>
+					<p><strong>UPLOAD CV:</strong></p>
+					<!-- added cv.doc file -->
+
+					<a href="{% static 'cv/cv.docx' %}" download>
+						<img src="{% static 'img/doc.png' %}" alt="document" title="document" />
+						Download CV.docx
+					</a>
+
+				</div>
+
+				<div id="columnCenter">
+					<h3>My 3D models:</h3>
+					{% load staticfiles %}
+					<div class="owl-carousel owl-theme owl-loaded">
+						<div class="owl-stage-outer">
+							<div class="owl-stage">
+								<div class="owl-item"><img src="{% static 'img/2(2).png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/2(3).png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/3.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/5.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/6.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/8.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/1.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/11.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/14.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/2.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/16.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/19.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/9.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/10.png' %}" /></div>
+								<div class="owl-item"><img src="{% static 'img/12.png' %}" /></div>
+							</div>
+						</div>
+
+							<script src="{% static 'js/jquery.min.js' %}"></script>
+							<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+							<script>
+								$(document).ready(function(){
+								  $(".owl-carousel").owlCarousel({
+							loop:true,
+							margin:10,
+							nav:true,
+							responsive:{
+								0:{
+									items:1
+								},
+								600:{
+									items:3
+								},
+								1000:{
+									items:5
+								}
+							}
+						});
+								});
+							</script>
+					</div>
+				</div>
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+	{% endblock %}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="keywords" content="cv, site, site-cv, cv-site, resume, landing page" />
+	<meta name="description" content="Сайт - резюме" />
+
+	{% load staticfiles %}
+	<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'img/ёба.png' %}" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" 	type="text/css">
+	<link rel="stylesheet" href="{% static 'css/owl_styles.css' %}">
+	<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+
+	<title>Hi!</title>
+
+</head>
+<body>
+	<header>
+		<a href="/" class="btn btn-outline-secondary btn-lg">Main page</a>
+		<a href="/cv" class="btn btn-outline-secondary btn-lg">CV</a>
+		<a href="/blog" class="btn btn-outline-secondary btn-lg">Blog &raquo;</a>
+	</header>
+
+    {% block content %}
+    {% endblock %}
+	
+
+
+	<footer>
+		<span class="left">All rights reserved &copy; 2018</span>
+		
+		<span class="right">
+			<a href="https://vk.com/sub_vlad_zero"><img src="{% static 'img/vk.png' %}" alt="VK page" title="VK page" /></a>
+		</span>
+		
+		<span class="right"><p class="pbd">Powered by Django</p></span>
+		
+	</footer>
+
+</body>
+</html>

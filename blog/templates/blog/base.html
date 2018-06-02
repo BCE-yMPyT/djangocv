@@ -5,12 +5,24 @@
         <title>My blog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Cute Font' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+        {% load staticfiles %}
+        <link href="{% static 'img/ёба.png' %}" rel="shortcut icon" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="keywords" content="cv, site, site-cv, cv-site, resume, landing page" />
+        <meta name="description" content="Сайт - резюме" />
     </head>
     <body>
 
         <div class="page-header">
+            <a href="/" class="btn">Main page</a>
+		    <a href="/cv" class="btn">CV</a>
+		    <a href="/blog" class="btn">Blog &raquo;</a>
             {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
                 <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
@@ -18,7 +30,7 @@
             {% else %}
                 <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
             {% endif %}
-            <h1><a href="/">Vlad Tretiakov Blog</a></h1>
+            <h1><a href="/blog">Vlad Tretiakov Blog</a></h1>
         </div>
 
         <div class="content container">
@@ -28,6 +40,16 @@
                     {% endblock %}
                 </div>
             </div>
+        </div>
+
+        <div class="page-footer">
+            <span class="left">All rights reserved &copy; 2018</span>
+
+            <span class="right">
+                <a href="https://vk.com/sub_vlad_zero"><img src="{% static 'img/vk.png' %}" alt="VK page" title="VK page" /></a>
+            </span>
+
+		    <span class="right">Powered by Django</span>
         </div>
 
     </body>
