@@ -20,15 +20,15 @@
     <body>
 
         <div class="page-header">
-            <a href="/" class="btn">Main page</a>
-		    <a href="/cv" class="btn">CV</a>
-		    <a href="/blog" class="btn">Blog &raquo;</a>
+            <a href="/" class="main_btn">Main page</a>
+		    <a href="/cv" class="main_btn">CV</a>
+		    <a href="/blog" class="main_btn">Blog &raquo;</a>
             {% if user.is_authenticated %}
-                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-                <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
+                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus" style="color: #333"></span></a>
+                <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit" style="color: #333"></span></a>
                 <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
             {% else %}
-                <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+                <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock" style="color: #333"></span></a>
             {% endif %}
             <h1><a href="/blog">Vlad Tretiakov Blog</a></h1>
         </div>

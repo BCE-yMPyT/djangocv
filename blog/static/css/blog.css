@@ -33,10 +33,10 @@ body a:hover {
 }
 
 .page-header {
-    background-color: #b7f6e4;
+    background-color: #DBF9F7;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #5D8979;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -46,15 +46,16 @@ body a:hover {
 }
 
 .page-header p {
-    color: #fff;
+    color: #333;
     font-size: 27pt;
 }
 
 .page-footer {
-    background-color: #b7f6e4;
+    margin-top: 1%;
+    background-color: #DBF9F7;
 	width: 100%;
 	min-height: 30px;
-	border-top: 2px solid black;
+	border-top: 2px solid #5D8979;
 	padding: 10px;
 	font-size: 1.2em;
 	color: #333;
@@ -75,7 +76,7 @@ body a:hover {
     margin-left: 40px;
 }
 
-.btn {
+.main_btn {
     border-radius: 5px;
 	border: 2px solid #737373;
 	box-sizing: border-box;
@@ -85,7 +86,7 @@ body a:hover {
 	font-family: Comic Sans MS;
 }
 
-.btn:hover {
+.main_btn:hover {
 	color: #fff;
 	background-color: #737373;
 	transition: all.3s ease;

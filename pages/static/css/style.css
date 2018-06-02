@@ -12,31 +12,31 @@ html {
 
 header, footer {
 	width: calc(100% -20px);
-	background-color: #b7f6e4;
+	background-color: #DBF9F7;
 	float: left;
 }
 
 header {
 	width: 100%;
 	min-height: 30px;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #5D8979;
 	padding: 10px;
 	font-color: #333;
 	font-size: 1.2em;
 	color: #333;
 	font-family: Comic Sans MS;
-	float: right;
+
 }
 
 footer {
 	width: 100%;
 	min-height: 30px;
-	border-top: 2px solid black;
+	border-top: 2px solid #5D8979;
 	padding: 10px;
 	font-size: 1.2em;
 	color: #333;
 	font-family: Comic Sans MS;
-	float: right;
+
 }
 
 .right {float: right}
@@ -77,24 +77,30 @@ footer {
 }
 
 #columnCenter {
+    opacity: 0.75;
+    background-color: #DBFAF7;
     margin-top: 2%;
 	width: 100%;
 	float:  left;
-	border-radius: 5px;
-	border: 2px solid #30554a;
+	border: 1px solid #30554a;
 	box-sizing: border-box;
 	padding: 1%;
+	border-radius: 10px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.8);
 }
 
 /* Left block */
 
 #columnLeft {
+    opacity: 0.75;
+    background-color: #DBFAF7;
 	width: 65%;
 	float:  left;
-	border-radius: 5px;
-	border: 2px solid #30554a;
+	border: 1px solid #30554a;
 	box-sizing: border-box;
 	padding: 1%;
+	border-radius: 10px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.8);
 }
 
 #columnLeft a {
@@ -130,11 +136,12 @@ footer {
 	float:  right;
 	margin-left: 5%;
 	margin-top: 5%;
-	background-color: #b7f6e4;
-	border-radius: 5px;
-	border: 2px solid black;
+	background-color: #DBF9F7;
+	border: 1px solid black;
 	box-sizing: border-box;
 	padding: 1%;
+	border-radius: 10px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.8);
 }
 
 #columnRight a {
