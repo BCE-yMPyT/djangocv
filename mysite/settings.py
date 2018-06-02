@@ -25,7 +25,7 @@ SECRET_KEY = ')a2&^0465%36ixps@azy%3r&rlx8=s@smkh@yup@4($3ean+*9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'BCEyMPyT.pythonanywhere.com', 'bceympyt.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'BCEyMPyT.pythonanywhere.com', 'bceympyt.pythonanywhere.com', 'vlad-maker.mooo.com']
 
 
 # Application definition
