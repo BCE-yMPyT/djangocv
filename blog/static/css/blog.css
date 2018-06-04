@@ -1,9 +1,26 @@
 html {
-	background: #a4e8d4;
+	background-image: url("htmlfon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
 }
 
+@font-face {
+    font-family: Comic Sans MS; /* Имя шрифта */
+    src: url("fonts/ComicSansMS3.ttf"); /* Путь к файлу со шрифтом */
+   }
+
 body {
-	background: #a4e8d4;
+	background-image: url("htmlfon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
 }
 
 body hr {
@@ -15,7 +32,7 @@ body hr {
 }
 
 body a {
-	color: #479b4b;
+	color: #006B5E;
 	text-decoration: none;
 	transition: all.6s ease;
 	-moz-transition: all.6s ease;
@@ -24,7 +41,7 @@ body a {
 }
 
 body a:hover {
-	color: #84e288;
+	color: #00B3A0;
 	text-decoration: none;
 	transition: all.6s ease;
 	-moz-transition: all.6s ease;
@@ -106,7 +123,7 @@ p {
 
 .date {
     float: top;
-    color: #828282;
+    color: #094949;
 }
 
 .save {
