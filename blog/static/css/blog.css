@@ -1,5 +1,5 @@
 html {
-	background-image: url("htmlfon.png");
+	background-image: url("htmlfon1.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
@@ -14,7 +14,7 @@ html {
    }
 
 body {
-	background-image: url("htmlfon.png");
+	background-image: url("htmlfon1.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
@@ -32,7 +32,7 @@ body hr {
 }
 
 body a {
-	color: #006B5E;
+	color: #2BEEE1;
 	text-decoration: none;
 	transition: all.6s ease;
 	-moz-transition: all.6s ease;
@@ -41,7 +41,7 @@ body a {
 }
 
 body a:hover {
-	color: #00B3A0;
+	color: #8CFDF6;
 	text-decoration: none;
 	transition: all.6s ease;
 	-moz-transition: all.6s ease;
@@ -123,7 +123,7 @@ p {
 
 .date {
     float: top;
-    color: #094949;
+    color: #93E6DD;
 }
 
 .save {
@@ -143,6 +143,7 @@ p {
 
 .post {
     margin-bottom: 70px;
+    color: black;
 }
 
 .post h1 a, .post h1 a:visited {
@@ -156,4 +157,5 @@ p {
 
 .comment {
     margin: 20px 0px 20px 20px;
+    color: black;
 }

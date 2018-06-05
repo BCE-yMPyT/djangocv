@@ -12,7 +12,7 @@
    }
 
 html {
-	background-image: url("htmlfon.png");
+	background-image: url("htmlfon1.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
@@ -88,7 +88,7 @@ footer {
 }
 
 #columnCenter {
-    opacity: 0.75;
+
     background-color: #DBFAF7;
     margin-top: 2%;
 	width: 100%;
